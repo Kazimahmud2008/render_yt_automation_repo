@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: yt-automation
+    env: python
+    buildCommand: ""
+    startCommand: "tail -f /dev/null"
+    plan: free
+    branch: main
